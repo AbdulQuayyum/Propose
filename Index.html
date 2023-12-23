@@ -10,10 +10,19 @@
 </head>
 
 <body>
-    <main>
-        <span>Hey</span>
+    <main class="container">
+        <div>
+            <h1 class="headerText">Would you go out with me?</h1>
+        </div>
+        <div class="gifContainer">
+            <img src="/Assets/Media/question.webp" alt="Cute animated illustration">
+        </div>
+        <div class="buttons">
+            <button class="btn" id="yesButton" onclick="NextPage()">Yes</button>
+            <button class="btn" id="noButton" onmouseover="MoveButton()" onclick="MoveButton()">No</button>
+        </div>
     </main>
-
+    <script src="/Assets/Js/Main.js"></script>
 </body>
 
 </html>
