@@ -12,6 +12,7 @@ body {
     align-items: center;
     height: 90vh;
     background-color: #F8C8DC;
+    width: "100%";
 }
 
 #noButton {
@@ -26,7 +27,7 @@ body {
 }
 
 .headerText {
-    font-size: 40px;
+    font-size: 24px;
     font-weight: bold;
     color: white;
     text-align: center;
